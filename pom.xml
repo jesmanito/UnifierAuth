@@ -16,7 +16,7 @@
       </resource>
     </resources>
     <outputDirectory>classes/</outputDirectory>
-  </build>
+    </build>
   <dependencies>
     <dependency>
       <groupId>com.fasterxml.jackson.dataformat</groupId>
@@ -46,12 +46,12 @@
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
-    <dependency>
-      <groupId>com.oracle.adf.library</groupId>
-      <artifactId>JAX-WS-Web-Services</artifactId>
-      <version>12.2.1-4-0</version>
-      <type>pom</type>
-      <scope>provided</scope>
-    </dependency>
+    
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.7.1</version>
+            </dependency>
+        
   </dependencies>
 </project>
